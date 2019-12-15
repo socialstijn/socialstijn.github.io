@@ -61,3 +61,7 @@ company="COMPANYNAME"
 /Library/MonitoringClient/RunClient -F
 ```
 
+
+![](/images/copy-rename-script-to-addigy.png)
+> If not not copying from the community item, add as a new script in Devices -> Manage
+
