@@ -2,6 +2,7 @@
 layout: post
 title: Automatically rename Macs using Addigy maintenance scripts
 categories: [Addigy, macOS]
+excerpt: Learn how to automatically rename devices in Addigy based on the logged in user, type of Mac, serial number and more.
 ---
 
 When onboarding new clients in Addigy I like to add a few maintenance scripts. One of these scripts automatically renames a Mac according to the logged in user, type of Mac (MacBook Pro, Mac mini etc), company name and last digits of serial number. This results in something like this 
