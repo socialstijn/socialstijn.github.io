@@ -67,7 +67,10 @@ company="COMPANYNAME"
 ![](/images/copy-rename-script-to-addigy.png)
 
 
-## Step 2) Adding the maintenance item
+## Step 2) Add the maintenance item
+
+> Go to Policies - Catalog and add a new maintenance item
+
 
 ![](/images/add-rename-script-as-maintenance-script.png)
 
