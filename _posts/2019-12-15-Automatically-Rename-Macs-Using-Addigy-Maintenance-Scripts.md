@@ -58,7 +58,8 @@ company="COMPANYNAME"
 	fi
 /Library/Addigy/collector
 /Library/Addigy/auditor
-/Library/MonitoringClient/RunClient -F
+# Uncomment the next line if you're using Watchman Monitoring
+# /Library/MonitoringClient/RunClient -F
 ```
 > If not not copying from the community item, add as a new script in Devices -> Manage
 
@@ -69,9 +70,10 @@ company="COMPANYNAME"
 
 ![](/images/add-rename-script-as-maintenance-script.png)
 
-That's it! To test it you can either wait on the specified time, or just go to Devices -> Select a device and run the script.
-You should see something like the below.
+That's it! To test it you can either wait for the specified time, or just go to Devices -> Select a device and run the script.
+You should see something like the below. 
 
 ![](/images/rename-device-addigy.png)
 
+Script was based on [this discussion](https://macadmins.slack.com/archives/C07DL6QCQ/p1560948471148900)
 
