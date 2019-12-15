@@ -16,7 +16,7 @@ Addigy allows you to run these scripts based on values in a [Custom Fact](https:
 
 The fastest way to do this is to copy it directly from the [community item](https://prod.addigy.com/#/macmanage/community/scripts/5d6ea5515ff0a156d5abf064) in the Addigy portal. Alternatively here is the script below.
 
-```bash
+```
 getUser=$(ls -l /dev/console | awk '{ print $3 }')
 hwIdentifier=$(sysctl -n hw.model)
 serialNumber=$(system_profiler SPHardwareDataType | awk '/Serial/ {print $4}' | rev | cut -c -5 | rev)
@@ -57,6 +57,6 @@ company="COMPANYNAME"
 	fi
 /Library/Addigy/collector
 /Library/Addigy/auditor
-/Library/MonitoringClient/RunClient -F`
-``
+/Library/MonitoringClient/RunClient -F
+```
 
