@@ -14,7 +14,7 @@ Addigy allows you to run these scripts based on values in a [Custom Fact](https:
 
 ## Step 1) Adding the rename script to Addigy
 
-The fastest way to do this is to copy it directly from the [community item](https://prod.addigy.com/#/macmanage/community/scripts/5d6ea5515ff0a156d5abf064) in the Addigy portal. Alternatively here is the script below.
+The fastest way to do this is to copy it directly from the [community item](https://prod.addigy.com/#/macmanage/community/scripts/5d6ea5515ff0a156d5abf064) in the Addigy portal. Alternatively here is the script below. Don't forget to add your company name.
 
 ```shell
 #!/bin/sh
@@ -67,11 +67,11 @@ company="COMPANYNAME"
 
 ## Step 2) Adding the maintenance item
 
-![](/add-rename-script-as-maintenance-script.png)
+![](/images/add-rename-script-as-maintenance-script.png)
 
 That's it! To test it you can either wait on the specified time, or just go to Devices -> Select a device and run the script.
 You should see something like the below.
 
-![](/rename-device-addigy.png)
+![](/images/rename-device-addigy.png)
 
 
