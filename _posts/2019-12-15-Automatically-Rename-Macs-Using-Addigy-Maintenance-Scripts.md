@@ -17,7 +17,6 @@ Addigy allows you to run these scripts based on values in a [Custom Fact](https:
 The fastest way to do this is to copy it directly from the [community item](https://prod.addigy.com/#/macmanage/community/scripts/5d6ea5515ff0a156d5abf064) in the Addigy portal. Alternatively here is the script below.
 
 ```bash
-#!/bin/sh
 getUser=$(ls -l /dev/console | awk '{ print $3 }')
 hwIdentifier=$(sysctl -n hw.model)
 serialNumber=$(system_profiler SPHardwareDataType | awk '/Serial/ {print $4}' | rev | cut -c -5 | rev)
@@ -56,12 +55,8 @@ company="COMPANYNAME"
 		scutil --set LocalHostName "$loggedInUser-$company-MP-$serialNumber"
 		scutil --set HostName "$loggedInUser-$company-MP-$serialNumber"
 	fi
-# start Addigy collector and auditor
 /Library/Addigy/collector
 /Library/Addigy/auditor
-
-# update Watchman Monitoring
-# uncomment line below if using Watchman Monitoring
-# /Library/MonitoringClient/RunClient -F`
+/Library/MonitoringClient/RunClient -F`
 ``
 
