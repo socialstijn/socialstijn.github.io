@@ -32,11 +32,19 @@ console.log(add(100,200))  // 300
 console.log(minus(100,200))  // -100
 ```
 
-This is a Python snippet:
+This is a Bash snippet:
 
 ```bash
-def say_hello():
-    print("hello world!")
+#!/bin/bash
 
-say_hello()   // "hello world!"
+echo How old are you?
+
+read age
+
+if [ "$age" -gt 20 ]
+then
+    echo You can drink.
+else
+    echo You are too young to drink.
+fi
 ```
