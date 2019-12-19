@@ -66,7 +66,7 @@ company="COMPANYNAME"
 > If not not copying from the community item, add as a new script in Devices -> Manage
 
 ![](/images/copy-rename-script-to-addigy.png)
-
+[![copy rename script in addigy](/images/copy-rename-script-to-addigy.png)](/images/copy-rename-script-to-addigy.png) –
 
 ## Step 2) Add the maintenance item
 
