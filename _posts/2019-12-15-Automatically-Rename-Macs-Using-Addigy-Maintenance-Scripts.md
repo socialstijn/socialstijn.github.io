@@ -65,15 +65,14 @@ company="COMPANYNAME"
 ```
 > If not not copying from the community item, add as a new script in Devices -> Manage
 
-![](/images/copy-rename-script-to-addigy.png)
 [![copy rename script in addigy](/images/copy-rename-script-to-addigy.png)](/images/copy-rename-script-to-addigy.png) –
 
 ## Step 2) Add the maintenance item
 
 > Go to Policies - Catalog and add a new maintenance item
 
+[![Add rename script as maintenance script](/images/add-rename-script-as-maintenance-script.png)](/images/add-rename-script-as-maintenance-script.png)
 
-![](/images/add-rename-script-as-maintenance-script.png)
 
 That's it! To test it you can either wait for the specified time, or just go to Devices -> Select a device and run the script.
 You should see something like the below. 
